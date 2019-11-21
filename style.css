@@ -1,0 +1,101 @@
+.worldMap {
+  height: auto; }
+  .worldMap .googleMap {
+    position: relative;
+    margin: 35.6px 0px 60.3px 0px;
+    width: 100%; }
+    .worldMap .googleMap #map {
+      border: 1px solid #707070;
+      height: 634.1px;
+      width: 100%; }
+  .worldMap .dropdown {
+    position: absolute;
+    top: 12.7px;
+    right: 14.5px;
+    width: 255px;
+    z-index: 100; }
+    .worldMap .dropdown .goToCountry {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: #227194;
+      color: #fff;
+      display: none;
+      border-radius: 5px 0px 0px 0px;
+      padding: 5px 0px;
+      padding-right: 9px;
+      padding-left: 16px; }
+      .worldMap .dropdown .goToCountry:after {
+        content: '';
+        width: 1px;
+        height: 25px;
+        background-color: #fff;
+        position: absolute;
+        right: 0; }
+      .worldMap .dropdown .goToCountry i {
+        position: absolute;
+        left: 4.9px;
+        top: 11.4px;
+        font-size: 11px;
+        margin-top: 3px; }
+    .worldMap .dropdown .fa-chevron-down {
+      position: absolute;
+      top: 15px;
+      left: 12px;
+      font-size: 11px; }
+    .worldMap .dropdown .btn-secondary:not(:disabled):not(.disabled) {
+      width: 255px;
+      background-color: #227194;
+      text-align: right;
+      box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.1);
+      font-weight: bold;
+      position: relative;
+      padding: 4px 22.4px 7.9px 88.3px; }
+    .worldMap .dropdown .btn.focus, .worldMap .dropdown .btn:focus, .worldMap .dropdown .btn.active {
+      box-shadow: unset !important; }
+    .worldMap .dropdown .dropdown-toggle {
+      border-radius: 5px 5px 0px 0px; }
+    .worldMap .dropdown .dropdown-toggle::after {
+      display: none; }
+    .worldMap .dropdown .dropdown-menu {
+      width: 255px;
+      height: 247px;
+      margin: 0px;
+      border-radius: 0px 0px 5px 0px;
+      box-shadow: 3px 3px 8px 0 #807979; }
+      .worldMap .dropdown .dropdown-menu .dropdown-item {
+        color: #227194;
+        text-align: right;
+        font-weight: bold;
+        cursor: pointer; }
+        .worldMap .dropdown .dropdown-menu .dropdown-item:hover {
+          color: #227194; }
+      .worldMap .dropdown .dropdown-menu .dropdown-item:hover {
+        background-color: #e1dede; }
+
+.leaflet-control-attribution {
+  display: none; }
+
+.leaflet-container {
+  background: #fff !important; }
+
+.leaflet-top {
+  display: none; }
+
+@media (max-width: 767px) {
+  .worldMap .googleMap #map {
+    border-radius: 5px 5px 0px 0px; }
+  .worldMap .dropdown {
+    width: 100%;
+    top: 0;
+    right: 0;
+    margin: 0; }
+    .worldMap .dropdown .btn-secondary:not(:disabled):not(.disabled) {
+      width: 100%;
+      top: 0;
+      right: 0;
+      margin: 0; }
+    .worldMap .dropdown .dropdown-menu {
+      width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
